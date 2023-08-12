@@ -1,0 +1,35 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-labels {
+    color: rgb(49, 49, 49);
+    font-size: x-large;
+}
+.form-inputs {
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: large;
+}
+.form-txt-area {
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: large;
+}
+.from-submit-btn {
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.from-submit-btn:hover {
+    background-color: green;
+    color: white;
+    transition-duration: 0.5s;
+}
